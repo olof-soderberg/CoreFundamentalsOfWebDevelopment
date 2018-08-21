@@ -33,6 +33,10 @@ a:hover{
     cursor: pointer;
 }
 
+.hidden{
+    display: none;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -61,7 +65,7 @@ a:hover{
     font-size: 28px;
 }
 
-#addBtn{
+#addButton{
     font-size: 24px;
     color: var(--light-accent-color);
 }
