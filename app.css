@@ -6,12 +6,16 @@
     --main-grey: #555;
 }
 
+/* Resets */
+
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
+/* Global */
 
 body{
     background-color: var(--light-accent-color);
@@ -23,4 +27,36 @@ a{
 
 a:hover{
     cursor: pointer;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Navbar */
+
+#nav{
+    height: 60px;
+    background-color: var(--dark-accent-color);
+    margin-bottom: 25px;
+}
+
+#navContainer {
+    display: flex;
+    flex-direction: row; /*default*/
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-header{
+    color: var(--light-accent-color);
+    font-size: 28px;
+}
+
+#addBtn{
+    font-size: 24px;
+    color: var(--light-accent-color);
 }
