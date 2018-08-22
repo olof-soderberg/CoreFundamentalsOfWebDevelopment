@@ -22,7 +22,7 @@
 
         <div class="panel hidden" id="addLinkPanel">
             <div id="linksList">
-                <h3 class="panel-heading">Add Link</h3>
+                <h3 class="header">Add Link</h3>
                 <form id="addLinkForm">
                     <input type="text" name="title" id="linkTitle" class="form-control" placeholder="Title">
                     <input type="text" name="url" id="linkUrl" class="form-control" placeholder="URL">
@@ -41,12 +41,22 @@
         <div id="linksList">
             <div class="link panel">
                 <div class="link-options">
-
+                    <button class="btn-sm">Delete</button>
+                    <button class="btn-sm">Edit</button>
                 </div>
 
-                <a href="www.arsenal.com"><h1 class="link-header">Link Title</h1></a>
+                <a href="www.arsenal.com">
+                    <h1 class="header">Link Title</h1>
+                </a>
+                <p class="link-date">12/25/2018</p>
+
+                    <div class="categories">
+                        Categories:
+                        <span class="category">Web Development</span>
+                        <span class="category">Javascript</span>
+                    </div>
                 <p class="link-date"></p>
-            </div>>
+            </div>
         </div>
     </div>
     
